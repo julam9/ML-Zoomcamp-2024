@@ -1,1 +1,3 @@
-Answer
+Answer 
+1. Pipenv version : 2024.2.0 
+2. "sha256:03b6158efa3faaf1feea3faa884c840ebd61b6484167c711548fce208ea09445"
