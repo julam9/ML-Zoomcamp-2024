@@ -5,5 +5,36 @@ Each image consists of pixel and each of these pixels has the shape of 3 dimensi
 
 A typical color image consists of three color channels: red, green and blue (RGB). Each color channel has 8 bits or 1 byte and can represent distinct values between 0-256 (uint8 type).
 
-***USE PRE-TRAINED MODEL*** 
+## USE PRE-TRAINED MODEL
 Pre-trained model is a model that has been trained before. In keras, there are image recognition models that have been trained on many images. 
+
+## CONVUTIONAL NEURAL NETWORK
+A convolutional neural network, also know as CNN or ConvNet, is a feed-forward neural network that is generally used to analyze visual images by processing data with grid-like topology
+
+The convoluion operation forms the basis of any CNN. In a convolution operation, the arrays are multiplied element-wise, and the dot product is summed to create a new array, which represents Wx.
+
+Layers in a Convolutional Neural Network
+A Convolution neural network has multiple hidden layers that help in extracting information from an image. The four important layers in CNN are:
+- Convolution layer
+- ReLU layer
+- Pooling layer
+- Fully connected layer (also called Dense layer)
+
+1. Convolution layer
+
+This is the first step in the process of extracting valuable features from an image. A convolution layer has several filters that perform the convolution operation. Every image is considered as a matrix of pixel values.
+
+2. ReLU layer
+
+Once the feature maps are extracted, the next step is to move them to a ReLU layer. ReLU (Rectified Linear Unit) is an activation function which performs an element-wise operation and sets all the negative pixels to 0. It introduces non-linearity to the network, and the generated output is a rectified feature map. The relu function is: f(x) = max(0,x).
+
+3. Pooling layer
+
+Pooling is a down-sampling operation that reduces the dimensionality of the feature map. The rectified feature map goes through a pooling layer to generate a pooled feature map. The pooling layer uses various filters to identify different parts of the image like edges, shapes etc.
+
+4. Fully Connected layer
+
+The next step in the process is called flattening. Flattening is used to convert all the resultant 2D arrays from pooled feature maps into a single linear vector. This flattened vector is then fed as input to the fully connected layer to classify the image.
+
+## Transfer Learning
+Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. Usually a pretrained model is trained with large volume of images and that is why the convolutional layers and vector representation of this model can be used for other tasks as well.
