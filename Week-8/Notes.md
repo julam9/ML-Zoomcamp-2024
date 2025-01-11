@@ -38,3 +38,6 @@ The next step in the process is called flattening. Flattening is used to convert
 
 ## Transfer Learning
 Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. Usually a pretrained model is trained with large volume of images and that is why the convolutional layers and vector representation of this model can be used for other tasks as well.
+
+## Adjusting Learning Rate
+One of the most important hyperparameters of deep learning models is the learning rate. It is a tuning parameter in an optimization function that determines the step size (how big or small) at each iteration while moving toward a mininum of a loss function.
