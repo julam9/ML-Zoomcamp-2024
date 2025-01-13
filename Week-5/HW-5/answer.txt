@@ -1,0 +1,7 @@
+Answer 
+1. Pipenv version : 2024.2.0 
+2. "sha256:03b6158efa3faaf1feea3faa884c840ebd61b6484167c711548fce208ea09445"
+3. 0.7590966516879658 
+4. 0.33480703475511053
+5. 197 MB (closest option 245 is MB)
+6. 0.7590966516879658 (closest option is 0.757)
