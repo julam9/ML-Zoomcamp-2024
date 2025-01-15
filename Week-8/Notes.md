@@ -58,3 +58,8 @@ Note: It may not always be possible that the model improves
 ## Dropout and Regularization
 Methods for deep learning to prevent overfitting by randomly dropping nodes of a layer during training. 
 Note: Because we introduce dropout in the neural networks, we will need to train our model for longer, hence, number of epochs is set to 30.
+
+## Data Augmentation
+Data augmentation is a process of artifically increasing the amount of data by generating new images from existing images. This includes adding minor alterations to images by flipping, cropping, adding brightness and/or contrast, and many more.
+
+In Keras, you can use ImageDataGenerator function.
