@@ -45,3 +45,16 @@ One of the most important hyperparameters of deep learning models is the learnin
 The goal is to find the right reading pace, or learning rate, that balances comprehension and efficiency. Reading too fast may result in superficial understanding, while reading too slowly might mean not acquiring knowledge quickly enough to meet your goals. By maintaining a moderate, balanced pace, you can maximize understanding and effectively apply what you've learned.
 
 A balanced learning rate ensures the model acquires sufficient knowledge and performs well on both training and validation data.
+
+## Checkpointing Model
+ModelCheckpoint (function on keras) callback is used with training the model to save a model or weights in a checkpoint file at some interval, so the model or weights can be loaded later 
+
+## Adding Layers 
+It is also possible to add one or more layers between the vector representation layer and the output layer to perform intermediate processing of the vector representation.
+These layer(s) are the same dense layers as the output but the difference is that these layers use relu activation 
+
+Note: It may not always be possible that the model improves
+
+## Dropout and Regularization
+Methods for deep learning to prevent overfitting by randomly dropping nodes of a layer during training. 
+Note: Because we introduce dropout in the neural networks, we will need to train our model for longer, hence, number of epochs is set to 30.
