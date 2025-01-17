@@ -62,4 +62,9 @@ Note: Because we introduce dropout in the neural networks, we will need to train
 ## Data Augmentation
 Data augmentation is a process of artifically increasing the amount of data by generating new images from existing images. This includes adding minor alterations to images by flipping, cropping, adding brightness and/or contrast, and many more.
 
-In Keras, you can use ImageDataGenerator function.
+In Keras, you can use ImageDataGenerator function. 
+
+## Use saved models
+The model used is in h5 format. HDF5 format contains the model's architecture, weights values, and compile() information
+
+The model performance can be evaluated on test data with model.evaluate(test_ds)
